@@ -1,6 +1,8 @@
 import React from "react";
 import userIcon from "../assets/user-icon.png";
 import logo from "../assets/logo-platzi-video-BW2.png";
+import { Link } from "react-router-dom";
+import "../assets/styles/components/Header.css";
 
 function Header() {
   return (
@@ -13,7 +15,7 @@ function Header() {
         </div>
         <ul>
           <li>
-            <a href="/">Cuenta</a>
+            <Link to="/counter">Cuenta</Link>
           </li>
           <li>
             <a href="/">Cerrar Sesión</a>

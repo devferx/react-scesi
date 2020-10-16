@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import Titulo from "../components/Titulo";
 
 // componente
 export default class Counter extends Component {
@@ -34,6 +36,8 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
+        <Link to="/">Home</Link>
+        <Titulo titulo="hola soy un contador" />
         <p
           style={{
             color: "white",
